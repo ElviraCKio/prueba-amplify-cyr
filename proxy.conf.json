@@ -1,0 +1,11 @@
+
+{
+    "/api": {
+      "target": "https://vu3cpov8r3.execute-api.us-east-2.amazonaws.com/desarrollo",
+      "secure": false,
+      "pathRewrite": {
+        "^/api": ""
+      },
+      "changeOrigin": true
+    }
+}

@@ -1,15 +1,23 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-holamundo-dev-125218-authRole",
-      "UnauthRoleArn": "arn:aws:iam::496149981144:role/amplify-holamundo-dev-125218-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::496149981144:role/amplify-holamundo-dev-125218-authRole",
-      "Region": "us-east-2",
-      "DeploymentBucketName": "amplify-holamundo-dev-125218-deployment",
-      "UnauthRoleName": "amplify-holamundo-dev-125218-unauthRole",
-      "StackName": "amplify-holamundo-dev-125218",
-      "StackId": "arn:aws:cloudformation:us-east-2:496149981144:stack/amplify-holamundo-dev-125218/82ce7e80-1584-11ec-af19-0a45e63fec2c",
-      "AmplifyAppId": "d2ehv14451smqw"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-holamundo-dev-125218-authRole",
+            "UnauthRoleArn": "arn:aws:iam::496149981144:role/amplify-holamundo-dev-125218-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::496149981144:role/amplify-holamundo-dev-125218-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-holamundo-dev-125218-deployment",
+            "UnauthRoleName": "amplify-holamundo-dev-125218-unauthRole",
+            "StackName": "amplify-holamundo-dev-125218",
+            "StackId": "arn:aws:cloudformation:us-east-2:496149981144:stack/amplify-holamundo-dev-125218/82ce7e80-1584-11ec-af19-0a45e63fec2c",
+            "AmplifyAppId": "d2ehv14451smqw"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2ehv14451smqw",
+                    "type": "cicd"
+                }
+            }
+        }
     }
-  }
 }
