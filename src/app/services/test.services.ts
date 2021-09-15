@@ -13,7 +13,7 @@ export class TestService {
 
   getAll(): Observable<ResponseModel> {
     return this.httpClient.get<ResponseModel>(
-      `https://vu3cpov8r3.execute-api.us-east-2.amazonaws.com/desarrollo`
+      `https://yacop2d062.execute-api.us-east-2.amazonaws.com/Stage/api/categories`
     );
   }
 
